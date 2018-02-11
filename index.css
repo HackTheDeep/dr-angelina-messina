@@ -36,8 +36,13 @@ a:hover, a:active {
 }
 #start {
    /*start button*/
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: bold;
+}
+#worksCited { /*works cited button*/
+  /*margin-left: 70%;
+  margin-right: 30%;*/
   font-weight: bold;
 }
 #imgCircle {
