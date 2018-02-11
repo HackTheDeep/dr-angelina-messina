@@ -6,14 +6,15 @@
 html, body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    background-color: black;
+    /*overflow: hidden;*/
 }
 
 h1{
     font-size: 300%;
     font-family: sans-serif;
     font-weight: bold;
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -23,7 +24,7 @@ h1{
     left: 300px;
 }
 
-#background{
+/*#background{
     z-index: -1;
     display: block;
     margin:auto;
@@ -31,4 +32,20 @@ h1{
     text-align: center;
     height: auto;
     width: auto;
+}*/
+
+.background{
+    background-image: url(img/ocean-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+
+    /*background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;*/
+
 }
