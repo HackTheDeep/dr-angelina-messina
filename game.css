@@ -1,5 +1,17 @@
+h{
+    font-size: 300%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
 #boat{
-    position:absolute;
-    top:100px;
-    left:50px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+#background{
+    
 }
