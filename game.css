@@ -45,10 +45,10 @@ h1{
 }
 #octopus{
     position: absolute;
-    top: 25%;
-    left: 10%;
-    max-height: 15%;
-    max-width: 15%;
+    top: 10%;
+    left: 18%;
+    max-height: 30%;
+    max-width: 30%;
     z-index: 2;
 }
 #orange-sea-horse1{
@@ -62,7 +62,7 @@ h1{
 #orange-sea-horse2{
     position: absolute;
     top: 55%;
-    left: 81%;
+    left: 80%;
     max-height: 10%;
     max-width: 10%;
     z-index: 2;
@@ -70,7 +70,7 @@ h1{
 #orange-starfish{
     position: absolute;
     top: 85%;
-    left: 20%;
+    left: 30%;
     max-height: 10%;
     max-width: 10%;
     z-index: 2;
@@ -102,7 +102,7 @@ h1{
 #pink-starfish{
     position: absolute;
     top: 85%;
-    left: 7%;
+    left: 16%;
     max-height: 10%;
     max-width: 10%;
     z-index: 2;
@@ -126,22 +126,14 @@ h1{
 #red-coral3{
     position: absolute;
     top: 75%;
-    left: 82%;
+    left: 80%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
 }
-/*#red-crab{
-    position: absolute;
-    top: 75%;
-    left: 75%;
-    max-height: 15%;
-    max-width: 15%;
-    z-index: 2;
-}*/
 #sea-turtle1{
     position: absolute;
-    top: 75%;
+    top: 20%;
     left: 75%;
     max-height: 15%;
     max-width: 15%;
@@ -149,57 +141,82 @@ h1{
 }
 #sea-turtle2{
     position: absolute;
-    top: 75%;
-    left: 75%;
+    top: 15%;
+    left: 55%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
 }
 #sea-turtle3{
     position: absolute;
-    top: 75%;
-    left: 75%;
+    top: 25%;
+    left: 65%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
 }
-/*#seaweeds{
+#sea-turtle4{
     position: absolute;
-    top: 75%;
-    left: 75%;
+    top: 17%;
+    left: 69%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
-}*/
-/*#treasure-chest{
+}
+#sea-turtle5{
     position: absolute;
-    top: 75%;
-    left: 75%;
+    top: 10%;
+    left: 79%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
-}*/
-/*#yellow-anglefish{
+}
+#sea-turtle6{
     position: absolute;
-    top: 75%;
-    left: 75%;
+    top: 25%;
+    left: 71%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
-}*/
-/*#yellow-starfish{
+}
+
+#yellow-anglefish1{
     position: absolute;
-    top: 75%;
-    left: 75%;
+    top: 70%;
+    left: 34%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
-}*/
+}
+#yellow-anglefish2{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}
+#yellow-anglefish3{
+    position: absolute;
+    top: 69%;
+    left: 17%;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}
+#catalog{
+    position: absolute;
+    top: 69%;
+    left: 17%;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 1;
+}
 
 #amnh{
     position: absolute;
     top: 55%;
-    left: 78%;
+    left: 76%;
     max-height: 10%;
     max-width: 10%;
     z-index:1;
@@ -207,20 +224,10 @@ h1{
 
 
 
-/*#background{
-    z-index: -1;
-    display: block;
-    margin:auto;
-    padding:20px;
-    text-align: center;
-    height: auto;
-    width: auto;
-}*/
 
 .background{
     background-image: url(img/ocean-background.png);
-    background-size: cover;
-    /*background-size: contain;*/
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
