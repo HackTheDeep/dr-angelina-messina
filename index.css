@@ -1,4 +1,52 @@
-.angelina-bio {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#angelina-bio { /* div */
   border-style: solid;
-  text-align: center;
+/*  text-align: center;
+  height: 380px;
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left:50%;*/
+  /*margin-left: -190px; */
+  /*margin-top: -300px; */
+  outline: 50% solid #CCC;
+  font-family: sans-serif;
+  line-height: 2;
+  padding: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#para {
+  padding: 0%;
+}
+a:link, a:visited {
+    background-color: #ffffff;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color:#f2f2f2;
+}
+#start {
+   /*start button*/
+  margin-left: 50%;
+  margin-right: 50%;
+  font-weight: bold;
+}
+#imgCircle {
+  display: block;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  /*position:absolute;
+    top:100px;*/
 }

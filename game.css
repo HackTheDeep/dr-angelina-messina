@@ -1,5 +1,177 @@
-#boat{
-    position:absolute;
-    top:100px;
-    left:50px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /*overflow: hidden;*/
+}
+
+h1{
+    font-size: 300%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.rotateimg45{
+    -webkit-transform:rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#clownfish{
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    max-height: 10%;
+    max-width: 10%;
+    z-index: 2;
+}
+#octopus{
+    position: absolute;
+    top: 240px;
+    left: 59px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}
+#orange-sea-horse1{
+    position: absolute;
+    top: 420px;
+    left: 550px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}
+#orange-sea-horse2{
+    position: absolute;
+    top: 450px;
+    left: 595px;
+    max-height: 10%;
+    max-width: 10%;
+    z-index: 2;
+}
+/*#orange-starfish{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#pink-fish{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#pink-starfish{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#red-coral{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#red-crab{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#sea-turtle{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#seaweeds{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#treasure-chest{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#yellow-anglefish{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+/*#yellow-starfish{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    max-height: 15%;
+    max-width: 15%;
+    z-index: 2;
+}*/
+
+#amnh{
+    position: absolute;
+    top: 470px;
+    left: 580px;
+    max-height: 10%;
+    max-width: 10%;
+    z-index:1;
+}
+
+
+
+/*#background{
+    z-index: -1;
+    display: block;
+    margin:auto;
+    padding:20px;
+    text-align: center;
+    height: auto;
+    width: auto;
+}*/
+
+.background{
+    background-image: url(img/ocean-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+
+    /*background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;*/
+
 }
