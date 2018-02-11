@@ -222,7 +222,14 @@ h1{
     z-index:1;
 }
 
-
+#membership{
+    position: absolute;
+    top: 21%;
+    left: 70%;
+    max-height: 10%;
+    max-width: 10%;
+    z-index:1;
+}
 
 
 .background{
