@@ -230,6 +230,14 @@ h1{
     max-width: 10%;
     z-index:1;
 }
+#boat{
+    position: absolute;
+    top: 21%;
+    left: 19%;
+    max-height: 20%;
+    max-width: 20%;
+    z-index:1;
+}
 
 
 .background{
