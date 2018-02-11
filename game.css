@@ -110,7 +110,7 @@ h1{
 #red-coral1{
     position: absolute;
     top: 75%;
-    left: 75%;
+    left: 70%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
@@ -118,7 +118,7 @@ h1{
 #red-coral2{
     position: absolute;
     top: 79%;
-    left: 79%;
+    left: 73%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
@@ -126,7 +126,7 @@ h1{
 #red-coral3{
     position: absolute;
     top: 75%;
-    left: 80%;
+    left: 78%;
     max-height: 15%;
     max-width: 15%;
     z-index: 2;
