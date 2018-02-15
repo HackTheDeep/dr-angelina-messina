@@ -40,6 +40,11 @@ a:hover, a:active {
   margin-right: 50%;
   font-weight: bold;
 }
+#worksCited { /*works cited button*/
+  /*margin-left: 70%;
+  margin-right: 30%;*/
+  font-weight: bold;
+}
 #imgCircle {
   display: block;
   border-radius: 50%;
