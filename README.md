@@ -15,6 +15,8 @@ The main problem we tackled with this project was the lack of representation of 
 # Approach 
 We created a website that targets all types of learners by simplifying the facts and adding interactive elements. The objective of the game is to find hidden objects to learn more about Dr. Messina by clicking on images hiding the hidden objects. Each hidden item symbolizes the events in Dr. Messina's life and by clicking on the hidden objects, information pertaining to the object will pop up on the screen. With our short game and brief facts, people of all ages can easily learn information about Dr. Messina. 
 
+![alt text](img/game.png)
+
 ## Link 
 
 # Next Steps 
