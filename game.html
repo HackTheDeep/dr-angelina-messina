@@ -1,59 +1,60 @@
 <!DOCTYPE html>
-<head>
-  <title> Under the Sea</title>
-  <link rel="stylesheet" href="game.css">
-</head>
-<body>
-    <div class="background"></div>
+<html>
+    <head>
+      <title> Under the Sea</title>
+      <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+        <div class="background"></div>
 
-    <img id="clownfish" src="img/clownfish.png" onclick="this.style.display='none';"></img>
-    <img id="octopus" src="img/octopus.png" onclick="this.style.display='none';"></img>
-    <img id="orange-sea-horse1" src="img/orange-sea-horse.png" onclick="this.style.display='none';"></img>
-    <img id="orange-sea-horse2" src="img/orange-sea-horse.png" onclick="this.style.display='none';"></img>
-    <img id="orange-starfish" src="img/orange-starfish.jpg" onclick="this.style.display='none';"></img>
-    <img id="pink-fish1" src="img/pink-fish.png" onclick="this.style.display='none';"></img>
-    <img id="pink-fish2" src="img/pink-fish.png" onclick="this.style.display='none';"></img>
-    <img id="pink-fish3" src="img/pink-fish.png" onclick="this.style.display='none';"></img>
-    <img id="pink-starfish" src="img/pink-starfish.png" class ="rotateimg-45" onclick="this.style.display='none';"></img>
-    <img id="red-coral1" src="img/red-coral.png" onclick="this.style.display='none';"></img>
-    <img id="red-coral2" src="img/red-coral.png" onclick="this.style.display='none';"></img>
-    <img id="red-coral3" src="img/red-coral.png" onclick="this.style.display='none';"></img>
-    <img id="sea-turtle1" src="img/sea-turtle.png" onclick="this.style.display='none';"></img>
-    <img id="sea-turtle2" src="img/sea-turtle.png" onclick="this.style.display='none';"></img>
-    <img id="sea-turtle3" src="img/sea-turtle.png" onclick="this.style.display='none';"></img>
-    <img id="sea-turtle4" src="img/sea-turtle.png" onclick="this.style.display='none';"></img>
-    <img id="sea-turtle5" src="img/sea-turtle.png" onclick="this.style.display='none';"></img>
-    <img id="sea-turtle6" src="img/sea-turtle.png" onclick="this.style.display='none';"></img>
-    <img id="yellow-anglefish1" src="img/yellow-anglefish.png" onclick="this.style.display='none';"></img>
-    <img id="yellow-anglefish2" src="img/yellow-anglefish.png" onclick="this.style.display='none';"></img>
-    <img id="yellow-anglefish3" src="img/yellow-anglefish.png" onclick="this.style.display='none';"></img>
+        <img id="clownfish" src="img/clownfish.png" onclick="this.style.display='none';">
+        <img id="octopus" src="img/octopus.png" onclick="this.style.display='none';">
+        <img id="orange-sea-horse1" src="img/orange-sea-horse.png" onclick="this.style.display='none';">
+        <img id="orange-sea-horse2" src="img/orange-sea-horse.png" onclick="this.style.display='none';">
+        <img id="orange-starfish" src="img/orange-starfish.jpg" onclick="this.style.display='none';">
+        <img id="pink-fish1" src="img/pink-fish.png" onclick="this.style.display='none';">
+        <img id="pink-fish2" src="img/pink-fish.png" onclick="this.style.display='none';">
+        <img id="pink-fish3" src="img/pink-fish.png" onclick="this.style.display='none';">
+        <img id="pink-starfish" src="img/pink-starfish.png" class ="rotateimg-45" onclick="this.style.display='none';">
+        <img id="red-coral1" src="img/red-coral.png" onclick="this.style.display='none';">
+        <img id="red-coral2" src="img/red-coral.png" onclick="this.style.display='none';">
+        <img id="red-coral3" src="img/red-coral.png" onclick="this.style.display='none';">
+        <img id="sea-turtle1" src="img/sea-turtle.png" onclick="this.style.display='none';">
+        <img id="sea-turtle2" src="img/sea-turtle.png" onclick="this.style.display='none';">
+        <img id="sea-turtle3" src="img/sea-turtle.png" onclick="this.style.display='none';">
+        <img id="sea-turtle4" src="img/sea-turtle.png" onclick="this.style.display='none';">
+        <img id="sea-turtle5" src="img/sea-turtle.png" onclick="this.style.display='none';">
+        <img id="sea-turtle6" src="img/sea-turtle.png" onclick="this.style.display='none';">
+        <img id="yellow-anglefish1" src="img/yellow-anglefish.png" onclick="this.style.display='none';">
+        <img id="yellow-anglefish2" src="img/yellow-anglefish.png" onclick="this.style.display='none';">
+        <img id="yellow-anglefish3" src="img/yellow-anglefish.png" onclick="this.style.display='none';">
 
-    <img id="amnh" src="img/amnh.png" class="rotateimg45" onclick= "popUp_amnh()"></img>
-    <img id="catalog" src="img/catalog.png" onclick="popUp_catalog()"></img>
-    <img id="membership" src="img/membership.png" onclick="popUp_membership()"></img>
-    <img id="boat" src="img/boat.png" onclick="popUp_boat()"></img>
-    <img id="oil" src="img/oil.png" onclick="popUp_oil()" class ="rotateimg-45"></img>
-    <script>
-        function popUp_amnh() {
-            document.getElementById("amnh").style.display='none';
-            alert ("In 1941 Dr. Angelina Messina was appointed Associate Curator in the Department of Micropaleontology of the American Museum of Natural History.");
-        }
-        function popUp_catalog() {
-            document.getElementById("catalog").style.display='none';
-            alert ("In 1928 Dr. Angelina Messina helped systemize or catalog the literature of the foraminifera (single-celled marine organisms). It was called the Foraminifera and Ostracoda Microfossil Catalog.");
-        }
-        function popUp_membership() {
-            document.getElementById("membership").style.display='none';
-            alert ("Dr. Messina was a member of Science Societies in the U.S., Italy, Germany, and Japan and a part of the Science Honor Society of Sigma Xi.");
-        }
-        function popUp_boat() {
-            document.getElementById("boat").style.display='none';
-            alert ("Dr. Messina spent part of her time in France on a boat studying marine fossil formation of the coastal formation.");
-        }
-        function popUp_oil() {
-            document.getElementById("oil").style.display='none';
-            alert ("Dr. Messina’s research in the study on foraminifera contributed to oil mining.");
-        }
-    </script>
-</body>
+        <img id="amnh" src="img/amnh.png" class="rotateimg45" onclick= "popUp_amnh()">
+        <img id="catalog" src="img/catalog.png" onclick="popUp_catalog()">
+        <img id="membership" src="img/membership.png" onclick="popUp_membership()">
+        <img id="boat" src="img/boat.png" onclick="popUp_boat()">
+        <img id="oil" src="img/oil.png" onclick="popUp_oil()" class ="rotateimg-45">
+        <script>
+            function popUp_amnh() {
+                document.getElementById("amnh").style.display='none';
+                alert ("In 1941 Dr. Angelina Messina was appointed Associate Curator in the Department of Micropaleontology of the American Museum of Natural History.");
+            }
+            function popUp_catalog() {
+                document.getElementById("catalog").style.display='none';
+                alert ("In 1928 Dr. Angelina Messina helped systemize or catalog the literature of the foraminifera (single-celled marine organisms). It was called the Foraminifera and Ostracoda Microfossil Catalog.");
+            }
+            function popUp_membership() {
+                document.getElementById("membership").style.display='none';
+                alert ("Dr. Messina was a member of Science Societies in the U.S., Italy, Germany, and Japan and a part of the Science Honor Society of Sigma Xi.");
+            }
+            function popUp_boat() {
+                document.getElementById("boat").style.display='none';
+                alert ("Dr. Messina spent part of her time in France on a boat studying marine fossil formation of the coastal formation.");
+            }
+            function popUp_oil() {
+                document.getElementById("oil").style.display='none';
+                alert ("Dr. Messina’s research in the study on foraminifera contributed to oil mining.");
+            }
+        </script>
+    </body>
 </html>
