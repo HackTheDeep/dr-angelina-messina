@@ -16,5 +16,5 @@ function popUp_boat() {
 }
 function popUp_oil() {
     document.getElementById("oil").style.display='none';
-    alert ("Dr. Messina’s research in the study on foraminifera contributed to oil mining.");
+    alert ("Dr. Messina's research in the study on foraminifera contributed to oil mining.");
 }
