@@ -41,9 +41,12 @@ a:hover, a:active {
   font-weight: bold;
 }
 #worksCited { /*works cited button*/
-  /*margin-left: 70%;
-  margin-right: 30%;*/
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
+  height: 20px;
+  width: 100px;
+  margin-bottom: 10px;
 }
 #imgCircle {
   display: block;
